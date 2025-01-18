@@ -3918,11 +3918,14 @@ p.form-messege{
      box-shadow: 0px 2px 29px 5px rgba(0, 0, 0, 0.08);
 }
  .testiCreCon i {
-     font-size: 100px;
+     
      color: #dddddd;
      position: absolute;
-     left: 50%;
+     left: 90%;
 }
+
+
+
  .testiCreCon p {
      position: relative;
      margin: 0;
@@ -6559,6 +6562,39 @@ p.form-messege{
      display:none;
 }
 /* =========================== DEFAULT CONTACT CSS ================================ */
+
+
+/* Set a consistent size for brand logos */
+.imagess_area .slide_items img {
+    max-width: 100px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
+    object-fit: contain; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center align */
+}
+
+/* Optional: Add spacing between images */
+.imagess_area .slide_items {
+    margin: 10px; /* Adjust spacing as needed */
+}
+
+/* Style for the button (optional, for consistency) */
+.witr_bbtn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.witr_bbtn:hover {
+    background-color: #0056b3;
+}
+
+
+
  .wpcf7 label {
      width: 100%;
 }
@@ -11773,7 +11809,6 @@ p.form-messege{
      border-radius: 0px 0px 0px 0px;
 }
  .carso_idtesti .testiCreCon p {
-     color: #1B1A1A;
      font-size: 20px;
      font-weight: 500;
 }
