@@ -6538,6 +6538,11 @@ p.form-messege{
 }
  .witr_tab_btn{
 }
+
+.slide_items.slick-slide.slick-active{
+    aspect-ratio: 3/2;
+    width: ;
+}
  .witr_tab_btn a{
      color:#ffbf00;
 }
@@ -6566,7 +6571,7 @@ p.form-messege{
 
 /* Set a consistent size for brand logos */
 .imagess_area .slide_items img {
-    max-width: 100px; /* Adjust as needed */
+    max-width: 164px; /* Adjust as needed */
     max-height: 100px; /* Adjust as needed */
     object-fit: contain; /* Maintain aspect ratio */
     display: block;
@@ -6578,9 +6583,13 @@ p.form-messege{
     margin: 10px; /* Adjust spacing as needed */
 }
 
+.slick-track{
+    padding-top: 20px;
+}
+
 /* Style for the button (optional, for consistency) */
 .witr_bbtn {
-    background-color: #007BFF;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -11822,7 +11831,7 @@ p.form-messege{
      margin-top:0px;
 }
  .witr_button_bg{
-     background-image: url(assets/images/b4.jpg);
+     background-image: url(assets/images/download.jpeg);
      padding: 0px 0px 66px;
      background-size: cover;
      position:relative;
